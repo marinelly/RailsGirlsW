@@ -1,0 +1,15 @@
+<div class="row">
+  <div class="small-11 small-centered columns">
+  	<h1>Api#index</h1>
+	<div class="panel">
+		<p>Find me in app/views/api/index.html.erb</p>
+	</div>
+	<%@tweets.each do |tweet|%>
+		<p><%=tweet.text%></p>
+	<%end%>
+
+  </div>
+  
+</div>
+
+

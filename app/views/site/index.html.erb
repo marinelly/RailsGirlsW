@@ -1,0 +1,10 @@
+<%=form_tag login_app_path do %>
+	
+	<%=label_tag 'Usuario'%>
+	<%=text_field_tag 'email'%>
+
+	<%=label_tag 'Contraseña'%>
+	<%=password_field_tag 'password'%>
+
+	<%=submit_tag 'Guardar'%>
+<%end%>
